@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Pengajian di Solo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-mosque"></i>
+                <h1>Kumpulan Pengajian Solo</h1>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#pengajian">Jadwal Pengajian</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content fade-in">
+            <h2>Temukan Kajian Islami di Kota Solo</h2>
+            <p>Kumpulan informasi jadwal pengajian dan kajian Islam di seluruh wilayah Solo Raya untuk memudahkan umat Muslim mendapatkan ilmu agama.</p>
+            <a href="#pengajian" class="btn">Lihat Jadwal Pengajian</a>
+        </div>
+    </section>
+
+    <!-- Pengajian Section -->
+    <section id="pengajian" class="container">
+        <h2 class="section-title">Jadwal Pengajian Terbaru</h2>
+        <div class="pengajian-list">
+            <!-- Pengajian Item 1 -->
+            <div class="pengajian-card fade-in">
+                <div class="pengajian-img-container">
+                    <img src="Assets/Ust. Umar.png" alt="Pengajian Masjid Jami' Assegaf" class="pengajian-img">
+                </div>
+                <div class="pengajian-content">
+                    <h3 class="pengajian-title">Kajian Salaf Tafsir Al-Qur'an</h3>
+                    <p class="pengajian-description">Pemahaman mendalam tentang Al-Qur'an melalui kajian tafsir orang-orang salaf yang disampaikan secara rutin setiap pekan.</p>
+                    <div class="pengajian-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Masjid Jami' Assegaf Solo</span>
+                    </div>
+                    <div class="pengajian-info">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Setiap Sabtu, 06.00 - 07.00 WIB</span>
+                    </div>
+                    <div class="pengajian-info">
+                        <i class="fas fa-user"></i>
+                        <span>Ustadz Umar Husein</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pengajian Item 2 -->
+            <div class="pengajian-card fade-in">
+                <div class="pengajian-img-container">
+                    <img src="Assets/Habib Hasan.jpg" alt="Pengajian Masjid Al-Hikmah" class="pengajian-img">
+                </div>
+                <div class="pengajian-content">
+                    <h3 class="pengajian-title">Rauhah Salaf</h3>
+                    <p class="pengajian-description">Pemahaman mendalam tentang hadist-hadist Rasulullah SAW dan Siroh Nabawiyah.</p>
+                    <div class="pengajian-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Masjid Ar-Riyadh Solo</span>
+                    </div>
+                    <div class="pengajian-info">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Setiap Kamis, 19.30 - 21.00 WIB</span>
+                    </div>
+                    <div class="pengajian-info">
+                        <i class="fas fa-user"></i>
+                        <span>Habib Hasan Al-Habsyi</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pengajian Item 3 -->
+            <div class="pengajian-card fade-in">
+                <div class="pengajian-img-container">
+                    <img src="Assets/Habib Novel.png" alt="Pengajian Masjid Nurul Huda" class="pengajian-img">
+                </div>
+                <div class="pengajian-content">
+                    <h3 class="pengajian-title">Kajian Hidup</h3>
+                    <p class="pengajian-description">Pembahasan masalah-masalah yang mencakup aspek penting dalam kehidupan seorang muslim sehari-hari.</p>
+                    <div class="pengajian-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Musholla Ar-Roudhah</span>
+                    </div>
+                    <div class="pengajian-info">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Setiap Jum'at, 20.00 - 23.00 WIB</span>
+                    </div>
+                    <div class="pengajian-info">
+                        <i class="fas fa-user"></i>
+                        <span>Ustadzah Novel Al-Aydrus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center" style="text-align: center; margin-top: 2rem;">
+            <a href="#" class="btn">Lihat Semua Jadwal</a>
+        </div>
+    </section>
+
+    <!-- Ustadz Section -->
+    <section class="container" style="margin-top: 4rem;">
+        <h2 class="section-title">Ustadz & Penceramah</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+            <!-- Ustadz 1 -->
+            <div class="fade-in" style="background-color: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                <div style="height: 200px; overflow: hidden;">
+                    <img src="Assets/Habib Hasan_2.jpg" alt="Habib Hasan" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 1.5rem 1rem;">
+                    <h3 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 0.5rem;">Habib Hasan Al-Habsyi</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">Spesialisasi: Sirah Nabawiyah</p>
+                    <div style="display: flex; justify-content: center; gap: 0.5rem;">
+                        <a href="#" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@MasjidRiyadhSolo" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ustadz 2 -->
+            <div class="fade-in" style="background-color: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                <div style="height: 200px; overflow: hidden;">
+                    <img src="Assets/Ust. Umar_2.jpg" alt="Ustadz Umar Husein" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 1.5rem 1rem;">
+                    <h3 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 0.5rem;">Ustadz Umar Husein</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">Spesialisasi: Tafsir Al-Qur'an</p>
+                    <div style="display: flex; justify-content: center; gap: 0.5rem;">
+                        <a href="#" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ustadzumarbinhuseinassegaf/?locale=ru" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@mjastream" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ustadz 3 -->
+            <div class="fade-in" style="background-color: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                <div style="height: 200px; overflow: hidden;">
+                    <img src="Assets/Habib Novel_2.png" alt="Ustadz Novel" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 1.5rem 1rem;">
+                    <h3 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 0.5rem;">Ustadz Novel Al-Aydrus</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">Spesialisasi: Hadits & Akhlak</p>
+                    <div style="display: flex; justify-content: center; gap: 0.5rem;">
+                        <a href="#" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/novelalaydrus/" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@ARRAUDHAHOFFICIAL" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ustadz 4 -->
+            <div class="fade-in" style="background-color: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                <div style="height: 200px; overflow: hidden;">
+                    <img src="Assets/Ust. Muhammad.png" alt="Ustadz Muhammad" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 1.5rem 1rem;">
+                    <h3 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 0.5rem;">Ustadz Muhammad Al-Habsyi</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">Spesialisasi: Fiqih</p>
+                    <div style="display: flex; justify-content: center; gap: 0.5rem;">
+                        <a href="https://www.facebook.com/UstMuhammad110" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/umh110/" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/c/UstadzMuhammadAlHabsyi" style="color: var(--primary-color); width: 30px; height: 30px; border-radius: 50%; background-color: var(--light-color); display: flex; align-items: center; justify-content: center;">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="#" class="btn">Lihat Semua Ustadz</a>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section style="background-color: var(--light-color); padding: 4rem 0; margin-top: 4rem;">
+        <div class="container">
+            <h2 class="section-title">Testimoni Jamaah</h2>
+            <div id="testimonialSlider" style="position: relative; max-width: 800px; margin: 0 auto; overflow: hidden;">
+                <div style="display: flex; transition: transform 0.5s ease;" id="testimonialWrapper">
+                    <!-- Testimonial 1 -->
+                    <div style="min-width: 100%; padding: 1rem;" class="testimonial-slide">
+                        <div style="background-color: white; border-radius: 10px; padding: 2rem; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); position: relative;">
+                            <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 3px solid var(--accent-color);">
+                                <img src="/api/placeholder/100/100" alt="Testimoni" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div style="text-align: center; margin-top: 2.5rem;">
+                                <p style="font-style: italic; color: #555; margin-bottom: 1rem;">"Alhamdulillah dengan adanya website ini, saya jadi lebih mudah menemukan jadwal pengajian di sekitar rumah. Informasinya lengkap dan selalu update."</p>
+                                <h4 style="color: var(--primary-color); margin-bottom: 0.2rem;">Ahmad Fauzi</h4>
+                                <p style="font-size: 0.9rem; color: #777;">Jamaah Aktif</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div style="min-width: 100%; padding: 1rem;" class="testimonial-slide">
+                        <div style="background-color: white; border-radius: 10px; padding: 2rem; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); position: relative;">
+                            <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 3px solid var(--accent-color);">
+                                <img src="/api/placeholder/100/100" alt="Testimoni" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div style="text-align: center; margin-top: 2.5rem;">
+                                <p style="font-style: italic; color: #555; margin-bottom: 1rem;">"Sangat membantu sekali untuk saya yang baru pindah ke Solo. Bisa langsung tahu jadwal pengajian mana saja yang bisa diikuti setiap harinya."</p>
+                                <h4 style="color: var(--primary-color); margin-bottom: 0.2rem;">Siti Aisyah</h4>
+                                <p style="font-size: 0.9rem; color: #777;">Mahasiswi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div style="min-width: 100%; padding: 1rem;" class="testimonial-slide">
+                        <div style="background-color: white; border-radius: 10px; padding: 2rem; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); position: relative;">
+                            <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); width: 60px; height: 60px; border-radius: 50%; overflow: hidden; border: 3px solid var(--accent-color);">
+                                <img src="/api/placeholder/100/100" alt="Testimoni" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div style="text-align: center; margin-top: 2.5rem;">
+                                <p style="font-style: italic; color: #555; margin-bottom: 1rem;">"Website ini memudahkan takmir masjid kami untuk mempromosikan kegiatan pengajian rutin. Sekarang jamaah yang hadir semakin banyak, alhamdulillah."</p>
+                                <h4 style="color: var(--primary-color); margin-bottom: 0.2rem;">H. Mahmud</h4>
+                                <p style="font-size: 0.9rem; color: #777;">Takmir Masjid</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 1.5rem;">
+                    <span class="testimonial-dot active" style="display: inline-block; width: 12px; height: 12px; background-color: var(--primary-color); border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
+                    <span class="testimonial-dot" style="display: inline-block; width: 12px; height: 12px; background-color: #ccc; border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
+                    <span class="testimonial-dot" style="display: inline-block; width: 12px; height: 12px; background-color: #ccc; border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">Tentang Kami</h2>
+        <div class="featured-content">
+            <div class="featured-text fade-in">
+                <h3>Kumpulan Pengajian Solo</h3>
+                <p>Kumpulan Pengajian Solo adalah platform digital yang bertujuan untuk memudahkan masyarakat Muslim di Solo Raya dalam menemukan jadwal dan informasi pengajian di sekitar mereka.</p>
+                <p>Didirikan pada tahun 2023, kami berkomitmen untuk terus menyediakan informasi yang akurat dan terpercaya tentang kajian Islam di seluruh wilayah Solo. Melalui platform ini, kami berharap dapat berkontribusi dalam meningkatkan pengetahuan dan pemahaman agama Islam di masyarakat.</p>
+                <p>Visi kami adalah menjadi pusat informasi pengajian terlengkap di Solo Raya dan membangun komunitas Muslim yang gemar menuntut ilmu.</p>
+            </div>
+            <div class="featured-img fade-in">
+                <img src="/api/placeholder/600/400" alt="Tim Kumpulan Pengajian Solo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <div class="featured-content">
+            <div class="featured-img fade-in">
+                <img src="/api/placeholder/600/400" alt="Kantor Kumpulan Pengajian Solo">
+            </div>
+            <div class="featured-text fade-in">
+                <h3>Ada Pertanyaan atau Saran?</h3>
+                <p>Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan, saran, atau ingin berkolaborasi untuk dakwah Islam di Solo Raya.</p>
+                <div class="pengajian-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Jl. Slamet Riyadi No. 123, Solo</span>
+                </div>
+                <div class="pengajian-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+62 851-2345-6789</span>
+                </div>
+                <div class="pengajian-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@pengajiansolo.id</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Kumpulan Pengajian Solo</h4>
+                    <p>Platform informasi jadwal pengajian dan kajian Islam di seluruh wilayah Solo Raya.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Tautan Cepat</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#pengajian">Jadwal Pengajian</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Kategori</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Kajian Fiqih</a></li>
+                        <li><a href="#">Kajian Salaf</a></li>
+                        <li><a href="#">Kajian Tafsir</a></li>
+                        <li><a href="#">Kajian Hadits</a></li>
+                        <li><a href="#">Kajian Akhlak</a></li>
+                    </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kumpulan Pengajian Solo. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
