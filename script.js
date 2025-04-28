@@ -161,7 +161,7 @@ const setupFilterButtons = () => {
     `;
     
     const filters = [
-        'Semua', 'Fiqih', 'Tafsir', 'Hadits', 'Akhlak', 'Anak-anak'
+        'Semua', 'Salaf' , 'Fiqih', 'Tafsir', 'Hadits', 'Akhlak',
     ];
     
     filters.forEach(filter => {
