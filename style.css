@@ -20,6 +20,11 @@ body {
     line-height: 1.6;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: var(--white-color);
